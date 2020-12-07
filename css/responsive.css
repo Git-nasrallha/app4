@@ -1,0 +1,72 @@
+/*start mobile screen*/
+@media (max-width:567px){
+    header .header-content .header-text{
+        padding-top: 100px;
+        margin-bottom: 30px;
+    }
+    header .header-content .header-text h1{
+        font-size: 28px;
+    }
+    .section-1 .info{
+        position: static;
+        margin-top: 20px;
+        padding: 30px 10px;
+    }
+    .section-2 .feature{
+        position: static;
+        margin-top: 20px;
+    }
+    .section-2 .purchase .headre-section{
+        margin-top: 110px;
+        font-size: 30px;
+    }
+    .section-2 .purchase .card .btn-purcharse{
+        padding: 15px 40px;
+    }
+    .section-2 h2 {
+        font-size: 20px;
+    }
+    .section-2 .content{
+        background-size: 357px 722px;
+    }
+    .section-3 .title-section h2{
+        font-size: 30px;
+    }
+    footer .col-md-4{
+        margin-bottom: 30px;
+    }
+}
+/*End mobile screen*/
+
+/*start small screen*/
+@media(min-width:578px) and (max-width:991px){
+    header{
+        min-height: 67vh;
+    }
+    header .header-content .header-text h1{
+        font-size: 37px;
+        margin: 20px 0;
+    }
+    .section-1 .info{
+        position: static;
+        margin-top: 20px;
+        padding: 30px 10px;
+    }
+    .section-2 .feature{
+        position: static;
+        margin-top: 20px;
+    }
+    .section-2 .feature{
+        margin-top: 70px;
+    }
+    .section-2 .purchase .headre-section{
+        margin-top: 120px;
+    }
+    .section-2 .content{
+        background-size: 757px 600px;
+    }
+    .section-2 .purchase .card{
+        margin-top: 80px;
+    }
+}
+/*end small screen */
